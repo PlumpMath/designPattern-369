@@ -1,12 +1,12 @@
-package behavioral.strategy;
+package behavior.strategy;
 
 /**
  * Created by manish.sharan on 04/09/16.
  */
-public class DefenseStrategy implements Strategy {
+public class AttackStrategy implements Strategy {
     @Override
     public String getStrategy() {
-        return "defense";
+        return "attack";
     }
 
     @Override

@@ -1,4 +1,4 @@
-package behavioral.strategy;
+package behavior.strategy;
 
 /**
  * Created by manish.sharan on 04/09/16.
