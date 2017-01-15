@@ -6,7 +6,7 @@ package creational.builder;
 public class ColdCoffee extends Beverage {
     private String name = "cold coffee";
 
-    public ColdCoffee(ColdCoffeeBuilder coldCoffeeBuilder){
+    private ColdCoffee(ColdCoffeeBuilder coldCoffeeBuilder){
         this.additiveLiquidQuantity = coldCoffeeBuilder.additiveLiquidQuantity;
         this.additiveLiquid = coldCoffeeBuilder.additiveLiquid;
         this.waterType = coldCoffeeBuilder.waterType;

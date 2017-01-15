@@ -7,7 +7,7 @@ public class LimeSoda extends Beverage {
     
     private String name = "lime soda";
 
-    public LimeSoda(LimeSodaBuilder limeSodaBuilder){
+    private LimeSoda(LimeSodaBuilder limeSodaBuilder){
         this.waterQuantity = limeSodaBuilder.waterQuantity;
         this.waterType = limeSodaBuilder.waterType;
         this.sugarQuantity = limeSodaBuilder.sugarQuantity;

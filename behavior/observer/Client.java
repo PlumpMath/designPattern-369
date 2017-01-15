@@ -38,10 +38,10 @@ public class Client {
     /*
     Philosophy:
     When change in one object's attribute needs to be propagated to other classes, this pattern is used. Make the object a subject and add the attribute change listening
-       classes as subscibers to it. This can be done at runtime. Then any change propagates automatically to the other classes.
+    classes as subscribers to it. This can be done at runtime. Then any change propagates automatically to the other classes.
 
-       This is cleaner as the subject is not required to change when adding or removing a subscriber. Any subscriber can come and subscribe to the subject and a change
-       in the attribute would get propagated to it at runtime.
+    This is cleaner as the subject is not required to change when adding or removing a subscriber. Any subscriber can come and subscribe to the subject and a change
+    in the attribute would get propagated to it at runtime.
 
     */
 }

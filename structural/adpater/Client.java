@@ -1,7 +1,7 @@
 package structural.adpater;
 
 /**
- * Created by manish.sharan on 05/09/16.
+ * Created by manish.sharan on 05/09/16
  */
 public class Client {
     public static void main(String[] args) {

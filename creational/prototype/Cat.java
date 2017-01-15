@@ -1,7 +1,7 @@
 package creational.prototype;
 
 /**
- * Created by manish.sharan on 30/08/16.
+ * Created by manish.sharan on 30/08/16
  */
 public class Cat implements Animal {
     @Override

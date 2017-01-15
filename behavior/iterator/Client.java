@@ -18,10 +18,14 @@ public class Client {
         String[] array = new String[3];
         array[0] = "testing";
         array[1] = "iterator";
+        Map<String,String> map = new HashMap<>();
+        map.put("a", "1");
+        map.put("b", "2");
 
         ArrayListCollection arrayListCollection = new ArrayListCollection(list);
         HashSetCollection hashSetCollection = new HashSetCollection(set);
         ArrayIterator arrayIterator = new ArrayIterator(array);
+        MapIterator mapIterator = new MapIterator(map);
 
         //iteration can be done in a usual way taking each collection at a time
 
@@ -29,6 +33,7 @@ public class Client {
         iterateAndPrintCollectionContents(arrayListCollection);
         iterateAndPrintCollectionContents(hashSetCollection);
         iterateAndPrintCollectionContents(arrayIterator);
+        iterateAndPrintCollectionContents(mapIterator);
 
     }
 

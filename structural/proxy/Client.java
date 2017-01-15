@@ -7,7 +7,7 @@ public class Client {
 
     public static void main(String[] args) {
         User user = new User("manish", "developer");
-        User user2 = new User("sharen", "manager");
+        User user2 = new User("sharan", "manager");
 
         IFolder folder = new FolderProxy(user);
         folder.performRW();
@@ -20,6 +20,7 @@ public class Client {
 /**
  * Philosophy:
  *
- * Proxy pattern provides a protection layer over the main classes having functionality. It creates a cover over it and exposes only the functionalities required with some additional checks.
+ * Proxy pattern provides a protection layer over the main classes having functionality. It creates a cover over it and exposes
+ * only the functionalities required with some additional checks.
  * The client would access the proxy instead of the main class and thus proxy would protect the functionalities by putting in restrictions.
  */

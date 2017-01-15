@@ -1,7 +1,7 @@
 package behavior.strategy;
 
 /**
- * Created by manish.sharan on 04/09/16.
+ * Created by manish.sharan on 04/09/16
  */
 public class AttackStrategy implements Strategy {
     @Override

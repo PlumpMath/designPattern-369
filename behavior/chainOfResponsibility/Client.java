@@ -23,6 +23,7 @@ public class Client {
 
 /**
  * Philosophy:
- * Chain of responsibility creates a chain of request processors who can either process the request sent by client or can put it forward to another request processor next in the chain.
- * A chain is created. The client sends the request to the first processor in the chain. If the request is processed, then ok else it passes the responsibility to another request processor.
+ * Chain of responsibility creates a chain of request processors who can either process the request sent by client or can put it
+ * forward to another request processor next in the chain. A chain is created. The client sends the request to the first processor
+ * in the chain. If the request is processed, then ok else it passes the responsibility to another request processor.
  */

@@ -1,7 +1,7 @@
 package structural.decorator;
 
 /**
- * Created by manish.sharan on 06/09/16.
+ * Created by manish.sharan on 06/09/16
  */
 public abstract class PizzaDecorator implements Pizza{
 
